@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <body bgcolor="#666699">
+           
+        <div id="container" style="width:1250px">
+                
+            <div id="header" style="background-color:#FF6666;height:40px; " >
+                
+                    <font face="Arial" size="6">
+                        <center>
+                        
+                            Applied Network Management Lab Assignment - 2
+                        </center>
+                    </font>
+                    
+            </div>
+                
+            <div id="tab" style="background-color:#CCCCCC;height:80px;width:1250px;float:left;">
+                <center>
+                    <font face="arial" size="5">
+                        <br>
+                        &nbsp;&nbsp;&nbsp;<a href="devices.php">Devices</a>
+                        &nbsp;&nbsp;&nbsp;<a href="servers.php">Servers</a>
+                        &nbsp;&nbsp;&nbsp;<a href="monitoring.php">Monitoring</a>
+                    </font>
+                </center>    
+            </div>            
+
+            <div id="content" style="background-color:#EEEEEE;height:550px;width:1250px;float:left;">
+            <center>
+                    
+                        <br><br>
+                        <img src='bth.gif' style="height:200px;width:200px;">
+                        <br><br>
+                    <font face='arial' size='5'>
+                        <p align='center'>
+                        Welcome to the home page of assignment 2.<br>
+                        
+                        Click on devices to manage network devices.<br>
+                        Click on Servers to manage the apache web servers.<br>
+                        Click on Monitoring to view the statistics obtained from the devices and servers.
+                        </p>
+                    
+                    </font>    
+                   
+            </div>
+                
+            <div id="footer" style="background-color:#FF6666;clear:both;text-align:center;">
+                magu14@student.bth.se
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+#!/bin/sh
+while true;
+do
+start=`date +%s`
+perl t3.pl    
+perl t3_server.pl
+end=`date +%s`
+runtime=$((end-start))
+s=$((60-runtime))
+echo $s
+sleep $s
+done
